@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 // export const HERO_CONTENT = `I am a junior student at the Setec Institute, majoring in Management Information Systems (MIS). As a passionate and innovative software developer, I specialize in front-end and back-end technologies such as React.js, Tailwind, Node.js, and Spring Boot. I prefer programming in Java and JavaScript programming and have experience with databases like MySQL and Oracle. My goal is to collaborate with experts to leverage my expertise in creating innovative solutions that drive business growth and deliver exceptional user experiences. I am dedicated to expanding my knowledge of business logic and gaining practical experience in software development.`;
 
@@ -41,14 +42,14 @@ export const PROJECTS = [
     image: project4,
     description:
       "This project is a simple electronic shop built using Spring Boot, Thymeleaf, MySQL, and Bootstrap. It features CRUD operations, allowing users to add, update, delete, and view products from the database. The website is fully responsive, providing a seamless experience across all devices.",
-    technologies: ["Thymeleaf", "Bootstrap", "Spring Boot", "mySQL"],
+    technologies: ["Thymeleaf", "Bootstrap", "JPA", "Spring Boot", "mySQL"],
   },
   {
-    title: "Electronic Store with CRUD Operations",
-    image: project1,
+    title: "Book Store with CRUD Operations",
+    image: project5,
     description:
-      "This project is a simple electronic shop built using Spring Boot, Thymeleaf, MySQL, and Bootstrap. It features CRUD operations, allowing users to add, update, delete, and view products from the database. The website is fully responsive, providing a seamless experience across all devices.",
-    technologies: ["Thymeleaf", "Bootstrap", "Spring Boot", "mySQL"],
+      "This project is a bookstore management system developed with Spring Boot, JPA for database interaction, and Thymeleaf for server-side templating. It serves as a practice ground to deepen my understanding of Spring Boot technologies, database connectivity, and web development with Thymeleaf.",
+    technologies: ["Thymeleaf", "Bootstrap", "JPA", "Spring Boot", "mySQL"],
   },
   {
     title: "Real Estate Website Using HTML, CSS and JavaScript",
